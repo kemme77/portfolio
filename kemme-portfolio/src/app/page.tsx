@@ -14,8 +14,8 @@ export default function Home() {
 
 export function SpinnerCustom() {
   return (
-    <div className="flex items-center gap-4">
-      <Spinner className='size-120 animate-spin mx-auto' />
+    <div className="flex items-center gap-4 ">
+      <Spinner className='size-120 animate-spin mx-auto [animation-duration:60s]' />
     </div>
   )
 }
