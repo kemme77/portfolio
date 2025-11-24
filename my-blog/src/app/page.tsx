@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="p-10">
-      <h2>Portfolio von Kemme</h2>
+      <h2>My Blog</h2>
       <Button>Klick mich</Button>
       <SpinnerCustom/>
     </div>
@@ -15,7 +15,7 @@ export default function Home() {
 export function SpinnerCustom() {
   return (
     <div className="flex items-center gap-4 ">
-      <Spinner className='size-120 animate-spin mx-auto [animation-duration:60s]' />
+      <Spinner className='size-120 animate-spin mx-auto animation-duration-[60s]' />
     </div>
   )
 }
