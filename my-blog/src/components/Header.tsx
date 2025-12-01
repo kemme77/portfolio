@@ -5,13 +5,14 @@ import Container from './Container'
 
 const Header = () => {
   return (
-    <header className="w-full bg-gray-300">
+    <header className="w-full flex items-center space-x-4">
+      <h1 className="text-2xl font-bold text-left mb-0">Welcome to My Site</h1>
         <Container className="bg-red-300 max-w-lg">
-            {/* Logo */}
-            <Image src={testimage} alt="TestImage" height={50} className="mx-auto"/>
-            {/* Navigation */}
-            {/* Theme Switcher */}
-            {/* Input */}
+          {/* Logo */}
+          <Image src={testimage} alt="TestImage" height={50} width={50} />
+          {/* Navigation */}
+          {/* Theme Switcher */}
+          {/* Input */}
         </Container>
     </header>
   )
